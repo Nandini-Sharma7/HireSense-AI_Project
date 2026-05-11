@@ -1,0 +1,1 @@
+from modules.speech import analyze_speech
