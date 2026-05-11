@@ -1,6 +1,8 @@
 # 🚀 HireSense AI  
 ## 🤖 AI-Based Interview Intelligence & Behavioral Analysis System  
 
+## Live Link: https://hiresense-aiproject-b8sve2juwiv5uvv7kkjpjx.streamlit.app/
+
 HireSense AI is an intelligent interview analysis platform that helps evaluate candidates using AI-powered speech, emotion, and resume analysis. The system provides deep insights into communication skills, confidence, behavioral patterns, and overall interview performance through advanced Machine Learning and NLP techniques.  
 
 ---
