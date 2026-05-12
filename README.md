@@ -1,34 +1,73 @@
 # 🚀 HireSense AI  
 ## 🤖 AI-Based Interview Intelligence & Behavioral Analysis System  
 
-## Live Link: https://hiresense-aiproject-b8sve2juwiv5uvv7kkjpjx.streamlit.app/
-
-HireSense AI is an intelligent interview analysis platform that helps evaluate candidates using AI-powered speech, emotion, and resume analysis. The system provides deep insights into communication skills, confidence, behavioral patterns, and overall interview performance through advanced Machine Learning and NLP techniques.  
+### 🌐 Live Demo  
+🔗 https://hiresense-aiproject-b8sve2juwiv5uvv7kkjpjx.streamlit.app/
 
 ---
 
-# ✨ Features  
+# 📌 Overview  
 
-### 🎤 Speech Analysis  
-Analyze candidate voice responses, speaking fluency, confidence, and communication patterns.  
+HireSense AI is an advanced AI-powered recruitment intelligence platform designed to automate and enhance interview evaluation using Machine Learning, Natural Language Processing (NLP), and behavioral analysis techniques.
 
-### 😊 Emotion Detection  
-Detect facial emotions and behavioral expressions during interviews using AI models.  
+The system analyzes candidate performance through multiple AI modules including speech confidence analysis, emotion detection, resume classification, NLP-based interview assessment, and intelligent feedback generation.
 
-### 📄 Resume Scoring  
-Automatically evaluate resumes based on skills, keywords, experience, and job relevance.  
+The project integrates a trained Machine Learning model for resume classification using TF-IDF Vectorization and Naive Bayes Classification, making it a complete AI + Data Science based recruitment solution.
 
-### 🧠 NLP-Based Interview Analysis  
-Use Natural Language Processing to analyze interview answers, sentiment, and response quality.  
+---
 
-### 💡 AI Suggestions  
-Generate smart feedback and improvement suggestions for candidates.  
+# ✨ Key Features  
 
-### 📊 Interactive Dashboard  
-Visualize interview insights, scores, and analytics using interactive charts and graphs.  
+## 🎤 Speech Confidence Analysis  
+Analyze communication fluency, speaking confidence, filler words, and speech duration.
 
-### 📝 PDF Report Generation  
-Generate detailed downloadable interview performance reports in PDF format.  
+## 😊 Emotion Detection  
+Detect candidate emotions and behavioral expressions during interviews using AI-based facial analysis.
+
+## 📄 Resume Analysis & Scoring  
+Evaluate resumes based on job description relevance, skills, and candidate profile matching.
+
+## 🧠 NLP-Based Interview Analysis  
+Analyze candidate answers using Natural Language Processing techniques for relevance and quality assessment.
+
+## 🤖 Machine Learning Resume Classification  
+Predict candidate job category using a trained Machine Learning model and resume dataset.
+
+## 📈 ML Model Evaluation  
+Visualize model performance using Accuracy Metrics and Confusion Matrix analysis.
+
+## 💡 AI Suggestions Engine  
+Generate intelligent feedback and improvement suggestions for candidates.
+
+## 📊 Interactive Dashboard  
+Display candidate performance analytics using dynamic charts and visualizations.
+
+## 📝 PDF Report Generation  
+Generate downloadable interview evaluation reports in PDF format.
+
+---
+
+# 🧠 Machine Learning Integration  
+
+The project includes a supervised Machine Learning model trained on a Resume Classification Dataset.
+
+### 🔹 ML Techniques Used  
+
+- TF-IDF Vectorization  
+- Naive Bayes Classification  
+- NLP Text Preprocessing  
+- Resume Category Prediction  
+- Accuracy Evaluation  
+- Confusion Matrix Visualization  
+
+### 📌 Model Workflow  
+
+Resume Upload  
+→ Text Extraction  
+→ NLP Preprocessing  
+→ TF-IDF Vectorization  
+→ Naive Bayes Classification  
+→ Predicted Job Role  
 
 ---
 
@@ -39,43 +78,38 @@ Generate detailed downloadable interview performance reports in PDF format.
 | 🐍 Python | Core Backend Development |
 | 🎨 Streamlit | Interactive Web Application |
 | 🤖 Scikit-learn | Machine Learning Models |
-| 📈 Plotly | Data Visualization & Analytics |
-| 🧠 NLP | Text & Interview Analysis |
-| 📄 PDF Libraries | Report Generation |
+| 📊 Plotly | Dashboard Visualizations |
+| 🧠 NLP | Text Analysis & Classification |
+| 📄 PyPDF2 | Resume Text Extraction |
+| 🖼️ Pillow | Image Processing |
+| 📈 Matplotlib | Confusion Matrix Visualization |
+| 💾 Joblib | ML Model Serialization |
 
 ---
 
-# 🎯 Project Objectives  
+# 📂 Project Structure  
 
-- ✅ Improve interview evaluation using AI  
-- ✅ Reduce manual bias in recruitment  
-- ✅ Provide intelligent candidate insights  
-- ✅ Enhance hiring decision accuracy  
-- ✅ Deliver automated interview reports  
-
----
-
-# 📷 Key Modules  
-
-✅ Resume Analyzer  
-✅ Emotion Recognition  
-✅ Speech & Sentiment Analysis  
-✅ AI Feedback Engine  
-✅ Performance Dashboard  
-✅ PDF Report System  
-
----
-
-# 🔥 Future Enhancements  
-
-- 🎥 Real-time video interview monitoring  
-- 🌐 Multi-language interview support  
-- ☁️ Cloud deployment integration  
-- 🤝 HR management dashboard  
-- 📱 Mobile responsive interface  
-
----
-
-# 👨‍💻 Developed With Passion Using AI & Data Science  
-
-⭐ If you like this project, don’t forget to star the repository!
+```bash
+HireSense-AI
+│
+├── assets
+│   └── confusion_matrix.png
+│
+├── ml_model
+│   ├── train_model.py
+│   ├── evaluate_model.py
+│   └── model.pkl
+│
+├── modules
+│   ├── face.py
+│   ├── nlp.py
+│   ├── predict.py
+│   ├── report.py
+│   ├── resume.py
+│   ├── scoring.py
+│   ├── speech.py
+│   └── suggestions.py
+│
+├── app.py
+├── README.md
+└── requirements.txt
