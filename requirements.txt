@@ -7,3 +7,6 @@ PyPDF2
 fpdf
 opencv-python
 moviepy
+joblib
+matplotlib
+Pillow
